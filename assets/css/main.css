@@ -1582,7 +1582,7 @@ button,
 
 /* Mini Posts */
 .mini-posts article {
-  border-top: solid 1px rgba(210, 215, 217, 0.75);
+  border-top: solid 1px rgba(195, 231, 237, 0.75);
   margin-top: 2em;
   padding-top: 2em; }
   .mini-posts article .image {
@@ -1746,7 +1746,7 @@ button,
     flex-shrink: 1;
     margin: 0 0 6em 6em;
     position: relative;
-    width: calc(33.33333% - 6em); }
+    width: calc(50% - 6em); }
     .posts article:before {
       background: rgba(255, 255, 255, 0.75);
       content: '';
