@@ -1774,15 +1774,15 @@ button,
         display: block;
         width: 90%; }
   @media screen and (min-width: 1681px) {
-    .posts article:nth-child(3n + 1):before {
+    .posts article:nth-child(2n + 1):before {
       display: none; }
-    .posts article:nth-child(3n + 1):after {
-      width: 100%; }
-    .posts article:nth-last-child(1), .posts article:nth-last-child(2), .posts article:nth-last-child(3) {
+    .posts article:nth-child(2n + 1):after {
+      width: 90%; }
+    .posts article:nth-last-child(1), .posts article:nth-last-child(2), .posts article:nth-last-child(2) {
       margin-bottom: 0; }
-      .posts article:nth-last-child(1):before, .posts article:nth-last-child(2):before, .posts article:nth-last-child(3):before {
-        height: 100%; }
-      .posts article:nth-last-child(1):after, .posts article:nth-last-child(2):after, .posts article:nth-last-child(3):after {
+      .posts article:nth-last-child(1):before, .posts article:nth-last-child(2):before, .posts article:nth-last-child(2):before {
+        height: 90%; }
+      .posts article:nth-last-child(1):after, .posts article:nth-last-child(2):after, .posts article:nth-last-child(2):after {
         display: none; } }
   @media screen and (max-width: 1680px) {
     .posts article {
